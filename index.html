@@ -1,27 +1,45 @@
 <!DOCTYPE html> 
 <head> 
-    <link rel="stylesheets" href="style.css" type="text/css"> 
+    <link rel="stylesheet" href="style.css"> 
     <meta charset="utf-8"> 
     <title>Victoria Mertens' Resume</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head> 
-<body> 
-    <h1>Victoria P. Mertens</h1>
+<body class="wrapper"> 
     <main>
-        <div class="contact info">
-            <p>47 Spruce Place</p>
-            <p>Minneapolis, MN 55403</p>
-            <p>P:612-638-8272</p>
-            <p>E:Victoria.Mertens44@gmail.com</p>
-        </div>
-        <div class="Education">
-        <h2>Education</h2>
-        <h3>Bachelor of Arts from the University of Iowa </h3>
-        <p>Graduated: December 2016</p>
-        <p>Major: Health and Human Physiology</p>
-        <p>Minor: Psychology</p>
-        <p>Certificate: Writing for Communication</p>
-        </div>
+        <div id="hero-content">
+
+                <section id="wrapper-hero">
+                    <img id="profile-pic" src="./assets/profile.jpeg">
+    
+                    <div>
+                        <h1 id="name">Victoria Mertens</h1>
+                        <p id="email">victoria.mertens44@gmail.com</p>
+                        <p id="phone">612-638-8272</p>
+                    </div>  
+                </section>
+
+       </div>
+       <hr/>
+        <section id="Education">
+            <div id="education-information" class="learningbox"> 
+                <p><strong>Bachelor of Arts from the University of Iowa, 2016 </strong></p>
+                <p>Major: Health and Human Physiology</p>
+                <p>Minor: Psychology</p>
+                <p>Certificate: Writing for Communication</p>
+            </div>
+            <div>
+                <img id="gradcap" src="./assets/gradcap.jpeg">
+             </div>
+             <div class="learningbox">
+                 <p><strong>Online Learning Experiences:</strong></p>
+                 <p>Responsive Web Design, freeCodeCamp</p>
+                 <p>Illustration and Design, Creative Academy</p>
+                 <p>Story Boarding and Creative Writing,The Loft Minneapolis</p>
+             </div>
+        </section>
+        <hr/>
+        <section class="wrapper-lot">
         <div class="work-experience">
             <h2>Work Experience</h2>
             <div class="intake">
@@ -55,30 +73,39 @@
                 <ul>Trained café staff on new sustainable products and composting procedures.</ul>
             </div>
         </div>
-        <div class="relevent-experience">
-            <h2>Other Relavent Experience</h2>
-            <div class="research">
-                <h3>Researcher for Stanley Grant</h3>
-                <p>Univeristy of Iowa and University of Tasmania </p><p>August 2015 - August 2016</p>
-                <ul>Designe and conducted a research study comparing written portrayals of mental health in social media, blog posts, magazines, and medical pamphlets between the University of Tasmania and the University of Iowa.
-                </ul>
-                <ul>Awarded the Stanley Grant to fund my research. </ul>
-                <ul>Presented my research at the Society for Cross Cultural Research Conference in New Orleans in 2017.</ul>
-                <ul>Won ‘Best Poster Presentation’ at conference. </ul>
+        </section>
+        <hr/>
+        <section class="wrapper-lot">
+            
+            <div class="relevent-experience">
+                <h2>Other Relavent Experience</h2>
+                <div class="research">
+                    <h3>Researcher for Stanley Grant</h3>
+                    <p>Univeristy of Iowa and University of Tasmania </p><p>August 2015 - August 2016</p>
+                    <ul>Designe and conducted a research study comparing written portrayals of mental health in social media, blog posts, magazines, and medical pamphlets between the University of Tasmania and the University of Iowa.
+                    </ul>
+                    <ul>Awarded the Stanley Grant to fund my research. </ul>
+                    <ul>Presented my research at the Society for Cross Cultural Research Conference in New Orleans in 2017.</ul>
+                    <ul>Won ‘Best Poster Presentation’ at conference. </ul>
+                </div>
+                <div class="writer">
+                    <h3>Writer/Brand Ambassador</h3>
+                    <p>BeOwn Foundation </p><p>August 2014 - September 2015</p>
+                    <ul>Wrote content for the company blog and social media to promote the BeOwn brand and foundation, which worked to provide after-school sports programs to children in Africa.  </ul>
+                    <ul>Researched and stayed ‘up-to-date’ on trends in online marketing strategies employed by other non-profit organizations.</ul>
+                    <ul>Organized a fundraiser to raise money for the BeOwn Foundation and promote the brand. </ul>
+                </div>
             </div>
-            <div class="writer">
-                <h3>Writer/Brand Ambassador</h3>
-                <p>BeOwn Foundation </p><p>August 2014 - September 2015</p>
-                <ul>Wrote content for the company blog and social media to promote the BeOwn brand and foundation, which worked to provide after-school sports programs to children in Africa.  </ul>
-                <ul>Researched and stayed ‘up-to-date’ on trends in online marketing strategies employed by other non-profit organizations.</ul>
-                <ul>Organized a fundraiser to raise money for the BeOwn Foundation and promote the brand. </ul>
-            </div>
-        </div>
+        </section>
+        <hr/>
+        <section class="wrapper-lot">
         <div class="hobbies">
             <h2>Hobbies and Interests</h2>
             <ul>Writing and Illustrating books and comics</ul>
             <ul>Sewing, including designing my out articles of clothing</ul>
             <ul>Hiking and Rock Climbing</ul>
         </div>
+        </section>
+     
     </main>
 </body>

@@ -1,3 +1,75 @@
-header{ 
-    font-size:1.5em;
+
+.wrapper{ 
+    width:1000px;
+    margin:auto;
+    margin-bottom: 10px;
 }
+.wrapper-lot{ 
+    width: 950px;
+    margin: auto;
+}
+/*hero-wrapper*/
+#hero-content{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+#wrapper-hero{
+    display: flex;
+    align-items: center;
+    gap: 4em;
+    margin: auto 10px;
+}
+
+#profile-pic{
+    width:300px;
+    border-radius:50%;
+    display: inline; 
+    vertical-align: middle;
+    margin: 0px auto 20px;
+}
+#email, #phone{ 
+    margin: auto 0; 
+    text-align: center;
+}
+
+#name{ 
+    font-size: 50px;
+    margin: auto 0;
+}
+/*Whole-Doc*/
+p{
+    margin: auto 4px;
+}
+
+/*Education*/
+#education-infomation{ 
+    display: flex;
+    align-items: center; 
+
+}
+#Education{ 
+    display: flex; 
+    align-items: center;
+    max-width:1000px;
+    margin: auto;
+    flex-basis: auto;
+    flex-grow:0;
+    justify-content: center;
+}
+#gradcap{ 
+    width: 250px; 
+ }
+
+ .learningbox{ 
+     width:350px;
+ }
+ p{ 
+     margin: 5px;
+ }
+
+ hr{ 
+     width: 1000px;
+     margin: auto;
+ }
